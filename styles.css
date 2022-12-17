@@ -1,0 +1,101 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+
+/* ------------------------------------------------------ header and navbar----------------------------------------------  */
+header{
+    position: sticky;
+    top:0;
+}
+.sticky-navbar{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    height: 60px;
+}
+
+.menu{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    margin: auto 12px;
+}
+
+ul a{
+    margin: 12px;
+    /* margin-right: 12px; */
+    color:white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.company-name{
+    margin: 12px;
+    color: white;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+h4{
+    margin: 0;
+}
+
+
+/* ------------------------------------------------------info and image section----------------------------------------------  */
+.learn-button button{
+    padding: 12px 50px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.info-image{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 35px;
+}
+
+.info-image>.info{
+    padding-left:50px;
+}
+
+.info-image>.image{
+    padding-right:50px;
+}
+.image>img{
+    width:500px; 
+    height:600px;
+}
+
+.info{
+    width: 49%;
+    font-size:1.25rem;
+}
+
+/* ------------------------------------------------------flex image galary section----------------------------------------------  */
+.flex-heading > h1{
+    font-size: 2.0rem;
+}
+
+#flex-galary{
+    margin:75px 50px;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.image-container
+
+.item-img > img{
+    width: 450px;
+    height: 300px;
+    margin: 50px auto;
+}
